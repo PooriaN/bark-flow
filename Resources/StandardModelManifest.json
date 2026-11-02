@@ -1,0 +1,198 @@
+{
+  "repository": "ConwayResearch/Underdog-Bark-3.0",
+  "revision": "85db2ad18ab41e534a222ee253c29191d77ed919",
+  "files": [
+    {
+      "type": "file",
+      "oid": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657,
+      "path": "coreml/LICENSE",
+      "lastCommit": {
+        "id": "85db2ad18ab41e534a222ee253c29191d77ed919",
+        "title": "Underdog Bark 3.0",
+        "date": "2026-10-15T07:29:11.000Z"
+      },
+      "securityFileStatus": {
+        "status": "safe",
+        "protectAiScan": {
+          "status": "unscanned",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/ConwayResearch/Underdog-Bark-3.0/85db2ad18ab41e534a222ee253c29191d77ed919/files?blob-id=da6ab6cc8f333d7e89a99812866df8f24374d47c&utm_source=huggingface"
+        },
+        "avScan": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        },
+        "pickleImportScan": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        },
+        "virusTotalScan": {
+          "status": "unscanned"
+        },
+        "jFrogScan": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    },
+    {
+      "type": "file",
+      "oid": "a2baabfd6a84b4fe3a60ceb517f9e9c47b270380",
+      "size": 603,
+      "path": "coreml/NOTICE",
+      "lastCommit": {
+        "id": "85db2ad18ab41e534a222ee253c29191d77ed919",
+        "title": "Underdog Bark 3.0",
+        "date": "2026-10-15T07:29:11.000Z"
+      },
+      "securityFileStatus": {
+        "status": "safe",
+        "protectAiScan": {
+          "status": "unscanned",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/ConwayResearch/Underdog-Bark-3.0/85db2ad18ab41e534a222ee253c29191d77ed919/files?blob-id=a2baabfd6a84b4fe3a60ceb517f9e9c47b270380&utm_source=huggingface"
+        },
+        "avScan": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        },
+        "pickleImportScan": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        },
+        "virusTotalScan": {
+          "status": "unscanned"
+        },
+        "jFrogScan": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    },
+    {
+      "type": "file",
+      "oid": "d4aeb7fa921cbbf96fb403d482b100db37bdeb07",
+      "size": 1784701,
+      "lfs": {
+        "oid": "7c3f1c1612ba21bcc4d8efff1b32154b39cb3e1e2f10020117793acc5c96fcdf",
+        "size": 1784701,
+        "pointerSize": 132
+      },
+      "xetHash": "a474ba60c405d1c5de61b272dc0f8ce41bff4951633ad0a531f7122641a46350",
+      "path": "coreml/ane/BarkEncoder.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "lastCommit": {
+        "id": "85db2ad18ab41e534a222ee253c29191d77ed919",
+        "title": "Underdog Bark 3.0",
+        "date": "2026-10-15T07:29:11.000Z"
+      },
+      "securityFileStatus": {
+        "status": "safe",
+        "protectAiScan": {
+          "status": "unscanned",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/ConwayResearch/Underdog-Bark-3.0/85db2ad18ab41e534a222ee253c29191d77ed919/files?blob-id=d4aeb7fa921cbbf96fb403d482b100db37bdeb07&utm_source=huggingface"
+        },
+        "avScan": {
+          "status": "safe",
+          "message": "",
+          "version": "1.5.4/28153"
+        },
+        "pickleImportScan": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        },
+        "virusTotalScan": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/7c3f1c1612ba21bcc4d8efff1b32154b39cb3e1e2f10020117793acc5c96fcdf?utm_source=huggingface"
+        },
+        "jFrogScan": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    },
+    {
+      "type": "file",
+      "oid": "db0bb47b33b562af382b0711204bf4fbb1d29e8a",
+      "size": 189133632,
+      "lfs": {
+        "oid": "98979e5dd731486ddfb2c312f80a3038205c058aac9fe0f403ba26e1a158d385",
+        "size": 189133632,
+        "pointerSize": 134
+      },
+      "xetHash": "ac1245584059d13a29c703244d2c4ceaba2cda3ce3eb3349aae8b2aacf60b937",
+      "path": "coreml/ane/BarkEncoder.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "lastCommit": {
+        "id": "85db2ad18ab41e534a222ee253c29191d77ed919",
+        "title": "Underdog Bark 3.0",
+        "date": "2026-10-15T07:29:11.000Z"
+      },
+      "securityFileStatus": {
+        "status": "safe",
+        "protectAiScan": {
+          "status": "unscanned",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/ConwayResearch/Underdog-Bark-3.0/85db2ad18ab41e534a222ee253c29191d77ed919/files?blob-id=db0bb47b33b562af382b0711204bf4fbb1d29e8a&utm_source=huggingface"
+        },
+        "avScan": {
+          "status": "safe",
+          "message": "",
+          "version": "1.5.4/28153"
+        },
+        "pickleImportScan": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        },
+        "virusTotalScan": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/98979e5dd731486ddfb2c312f80a3038205c058aac9fe0f403ba26e1a158d385?utm_source=huggingface"
+        },
+        "jFrogScan": {
+          "status": "unscanned",
+          "message": "Unsupported machine-learning model"
+        }
+      }
+    },
+    {
+      "type": "file",
+      "oid": "82bd4af2a2e0784ca504bf4a19ef9a700494fa8f",
+      "size": 617,
+      "path": "coreml/ane/BarkEncoder.mlpackage/Manifest.json",
+      "lastCommit": {
+        "id": "85db2ad18ab41e534a222ee253c29191d77ed919",
+        "title": "Underdog Bark 3.0",
+        "date": "2026-10-15T07:29:11.000Z"
+      },
+      "securityFileStatus": {
+        "status": "safe",
+        "protectAiScan": {
+          "status": "unscanned",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/ConwayResearch/Underdog-Bark-3.0/85db2ad18ab41e534a222ee253c29191d77ed919/files?blob-id=82bd4af2a2e0784ca504bf4a19ef9a700494fa8f&utm_source=huggingface"
+        },
+        "avScan": {
+          "status": "safe",
+          "message": "",
+          "version": "1.5.4/28153"
+        },
+        "pickleImportScan": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        },
+        "virusTotalScan": {
+          "status": "unscanned"
+        },
+        "jFrogScan": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    }
+  ]
+}

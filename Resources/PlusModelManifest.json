@@ -1,0 +1,72 @@
+{
+  "repository": "ConwayResearch/Underdog-Bark-3.0-Plus",
+  "revision": "d4fab2f8b95681e5ad3cfb4e8c5f4e0c009b3deb",
+  "files": [
+    {
+      "type": "file",
+      "oid": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657,
+      "path": "coreml/LICENSE"
+    },
+    {
+      "type": "file",
+      "oid": "964d7eb28107cc7c16e75ef189e6ebbdb055541d",
+      "size": 613,
+      "path": "coreml/NOTICE"
+    },
+    {
+      "type": "file",
+      "oid": "f37efc202ca7a29da7c76bc623421354e0ffd747",
+      "size": 1784701,
+      "lfs": {
+        "oid": "bfc5b4e6fde8cd06722ae37bee6bea044f9c4e3bbb25c9945a48edc3e5df0ec1",
+        "size": 1784701,
+        "pointerSize": 132
+      },
+      "xetHash": "43a3fbca8e16faa8aac652a49d1cc85302842857f6aa1b4b0e185d21a29eadf5",
+      "path": "coreml/ane/BarkEncoder.mlpackage/Data/com.apple.CoreML/model.mlmodel"
+    },
+    {
+      "type": "file",
+      "oid": "384c51e761699aa75e9ea1d89aa459a94eca9f4d",
+      "size": 192940480,
+      "lfs": {
+        "oid": "6b2c1c9ca7fdd8d18abee2452b54a978dcb1c31d0460bded396d9e61e3e9a59f",
+        "size": 192940480,
+        "pointerSize": 134
+      },
+      "xetHash": "227ba5c1983ba7a3a083cdbd279e24c329b0ec26ef4ba19c3b3e0ed3710a45a9",
+      "path": "coreml/ane/BarkEncoder.mlpackage/Data/com.apple.CoreML/weights/weight.bin"
+    },
+    {
+      "type": "file",
+      "oid": "b1e83d2348460ba96ebec0320569e67ac4d38f4d",
+      "size": 617,
+      "path": "coreml/ane/BarkEncoder.mlpackage/Manifest.json"
+    },
+    {
+      "type": "file",
+      "oid": "915b25fa6843e748e5a0bb0b3bb2d36941e15fdb",
+      "size": 8247,
+      "path": "coreml/ane/bark_coreml.py"
+    },
+    {
+      "type": "file",
+      "oid": "abb51af4ab2b020574d2b1a01a408c519d51274c",
+      "size": 11168286,
+      "lfs": {
+        "oid": "1ce79071f54c3dcec9aa9bb1d488486766f1fdbb3fd988b776da3f4da8024665",
+        "size": 11168286,
+        "pointerSize": 133
+      },
+      "xetHash": "22c0d285eaf97f5010cc2c6b3b2f4333abadd4f99bc60c34e021b68e2af370b5",
+      "path": "coreml/ane/decoder.npz"
+    },
+    {
+      "type": "file",
+      "oid": "86ce2b32ce5820d7fe7c9e7969a77f9efc336137",
+      "size": 115878,
+      "path": "coreml/ane/vocab.json"
+    }
+  ]
+}
