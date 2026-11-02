@@ -2,6 +2,12 @@
 
 Bark Flow is a local dictation app for Apple silicon Macs. It runs Conway Research's Bark 3.0 speech models on your Mac and can paste the transcript into the active text field.
 
+## Download
+
+**[Download Bark Flow 0.6.0 for Mac](https://github.com/PooriaN/bark-flow/releases/download/v0.6.0/Bark.Flow.0.6.0.Plus.dmg)** (196 MB) · [Release notes](https://github.com/PooriaN/bark-flow/releases/tag/v0.6.0)
+
+This is an experimental release for Apple silicon Macs running macOS 15 or later. The installer includes Bark 3.0 Plus. Standard and Pro download when selected. End-to-end transcription in this release has not yet been verified; see the release notes for details.
+
 ## Install and use
 
 Requires macOS 15 or later and an Apple silicon Mac. Copy Bark Flow to Applications before opening it. This early build is ad hoc signed and is not notarized, so macOS may block it on first launch. If you trust the source, see [Apple's instructions for opening an app that is not notarized](https://support.apple.com/102445).
