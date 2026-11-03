@@ -147,14 +147,14 @@ final class PlusRuntime {
         }
     }
 
-    func warm(progress: @escaping @Sendable (String) async -> Void) async throws {
+    func warm(modelName: String, progress: @escaping @Sendable (String) async -> Void) async throws {
         for window in [8,15] {
-            await progress("Loading Plus \(window)-second encoder…")
+            await progress("Loading \(modelName) \(window)-second encoder…")
             encoders[window] = try loadEncoder(window)
         }
         // Make the first prediction before announcing Ready, so first-use compilation
         // does not surprise the user after they finish their first dictation.
-        await progress("Warming up Bark 3.0 Plus…")
+        await progress("Warming up \(modelName)…")
         _ = try encode(Array(repeating: Float(0), count: 8_000), window: 8)
         _ = try encode(Array(repeating: Float(0), count: 128_000), window: 15)
     }

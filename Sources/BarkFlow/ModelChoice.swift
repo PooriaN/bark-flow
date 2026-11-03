@@ -25,10 +25,11 @@ enum ModelChoice: String, CaseIterable, Identifiable {
         let fm = FileManager.default
         let compiled = self == .pro ? ["Encoder.mlmodelc/coremldata.bin","Preprocessor.mlmodelc/coremldata.bin","Decoder.mlmodelc/coremldata.bin","JointDecisionv3.mlmodelc/coremldata.bin","parakeet_v3_vocab.json"] : ["BarkEncoder.mlmodelc/coremldata.bin","decoder-data/weights.json","vocab.json"]
         let source = self == .pro ? ["Encoder.mlpackage/Manifest.json","Preprocessor.mlpackage/Manifest.json","Decoder.mlpackage/Manifest.json","JointDecisionv3.mlpackage/Manifest.json","parakeet_v3_vocab.json"] : ["BarkEncoder.mlpackage/Manifest.json","decoder-data/weights.json","vocab.json"]
+        let bundled = Bundle.main.resourceURL!.appendingPathComponent(folder)
+        if self == .plus && compiled.allSatisfy({ fm.fileExists(atPath:bundled.appendingPathComponent($0).path) }) { return bundled }
         let installed = installedDirectory
         if compiled.allSatisfy({ fm.fileExists(atPath:installed.appendingPathComponent($0).path) }) { return installed }
         if (try? String(contentsOf:installed.appendingPathComponent(".verified"), encoding:.utf8)) == revision && source.allSatisfy({ fm.fileExists(atPath:installed.appendingPathComponent($0).path) }) { return installed }
-        let bundled = Bundle.main.resourceURL!.appendingPathComponent(folder)
         if compiled.allSatisfy({ fm.fileExists(atPath:bundled.appendingPathComponent($0).path) }) || source.allSatisfy({ fm.fileExists(atPath:bundled.appendingPathComponent($0).path) }) { return bundled }
         return nil
     }

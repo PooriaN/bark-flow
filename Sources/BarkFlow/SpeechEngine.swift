@@ -62,8 +62,8 @@ actor SpeechEngine {
             }
             await progress("Loading \(model.displayName)…")
             let runtime = try PlusRuntime(root:root, compiled:compiled, units:.cpuAndNeuralEngine)
-            try await runtime.warm(progress:progress)
-            plus = runtime; choice = .plus
+            try await runtime.warm(modelName:model.displayName,progress:progress)
+            plus = runtime; choice = model
             return
         }
         guard fm.fileExists(atPath: root.appendingPathComponent("parakeet_v3_vocab.json").path) else {

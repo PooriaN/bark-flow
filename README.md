@@ -6,7 +6,7 @@ Bark Flow is a local dictation app for Apple silicon Macs. It runs Conway Resear
 
 **[Download Bark Flow 0.6.0 for Mac](https://github.com/PooriaN/bark-flow/releases/download/v0.6.0/Bark.Flow.0.6.0.Plus.dmg)** (196 MB) · [Release notes](https://github.com/PooriaN/bark-flow/releases/tag/v0.6.0)
 
-This is an experimental release for Apple silicon Macs running macOS 15 or later. The installer includes Bark 3.0 Plus. Standard and Pro download when selected. End-to-end transcription in this release has not yet been verified; see the release notes for details.
+The downloadable 0.6.0 build is experimental and may fail to load on some Macs. The source includes newer 0.6.2 model-selection fixes that are not yet available as a release. Pro still needs end-to-end verification in the new build. This app is for Apple silicon Macs running macOS 15 or later. The installer includes Bark 3.0 Plus. Standard and Pro download when selected. First-time model preparation can take 10 minutes or longer, and recording is unavailable until the app shows Ready. See the release notes for current testing limits.
 
 ## Install and use
 
@@ -14,7 +14,7 @@ Requires macOS 15 or later and an Apple silicon Mac. Copy Bark Flow to Applicati
 
 Allow microphone access when prompted. For automatic text insertion, enable Bark Flow in System Settings > Privacy & Security > Device Control and Data Access (or Accessibility on older macOS). Place the cursor in an editor, press Option + Space to start, and Option + Return to stop. The floating listening window also has a Stop button. Shortcuts can be changed in Settings. The app remains in the menu bar after its window is closed.
 
-The first model load can take several minutes as macOS prepares its machine learning cache. Longer recordings take longer to process. Choose a recording limit from 30 seconds to 10 minutes in Settings. Imported audio is limited to two minutes. Recognition is English only and produces verbatim text, including fillers.
+The first model load can take 10 minutes or longer as macOS prepares its machine learning cache. Recording is unavailable until preparation finishes. Longer recordings take longer to process. Choose a recording limit from 30 seconds to 10 minutes in Settings. Imported audio is limited to two minutes. Recognition is English only and produces verbatim text, including fillers.
 
 ## Models and privacy
 

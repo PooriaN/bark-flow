@@ -3,7 +3,7 @@ BARK FLOW
 INSTALL
 1. Drag Bark Flow to Applications. Open it from Applications.
 2. If macOS blocks this build, it is ad hoc signed and not notarized. If you trust the source, try opening it once, then go to System Settings > Privacy & Security and choose Open Anyway. Apple explains this process at https://support.apple.com/102445.
-3. Wait for the model to prepare. On first use this may take several minutes.
+3. Wait for the model to prepare. Recording is disabled until the app shows Ready. On first use this can take 10 minutes or longer, depending on your Mac.
 4. Allow microphone access. For automatic insertion, select Enable in the app and allow Bark Flow in System Settings > Privacy & Security > Device Control and Data Access (or Accessibility on older macOS).
 
 USE
